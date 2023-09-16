@@ -19,7 +19,7 @@ const library = [
 const numberOfBooksRead = () => {
   // write your code here
 	let count=0;
-	forEach((element,index)=>{
+	library.forEach((element,index)=>{
 			if(library[index].readingStatus==true){
 				count++;
 			}
